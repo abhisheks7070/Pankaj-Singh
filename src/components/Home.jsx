@@ -12,12 +12,12 @@ const Home = () => {
         <h1 className="text-3xl md:text-5xl font-bold text-blue-500">Welcome to Pankaj FinanceGaurd Solutions.</h1>
         <div className='w-[80vw] md:mt-10 m-auto  flex flex-col-reverse md:flex-row justify-around'>
           <div className='my-auto md:w-[40vw]'>
-            <div className="relative m-auto w-2/3 my-10 pb-full border-dotted border-2 border-pink-300 bg-pink-200 rounded-full">
+            <div className="relative m-auto w-full md:w-2/3 my-10 pb-full border-dotted border-2 border-pink-300 bg-pink-200 rounded-full">
               <Player
                 autoplay
                 loop
                 src="https://lottie.host/13d9a8cb-156d-45ea-b824-0f67104b23f9/YWPzKmv0eb.json"
-                className=" w-2/3 rounded-full "
+                className=" w-full md:w-2/3 rounded-full "
               >
               </Player>
             </div>
