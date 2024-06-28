@@ -20,6 +20,7 @@ body {
   }
   #contact {
     background-color: inherit; /* This will take the background color of body */
+    color: inherit;
   }
   #services {
     background-color: inherit; /* This will take the background color of body */
