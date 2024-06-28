@@ -83,7 +83,7 @@ const Contact = () => {
       {statusMessage && <p className="mt-4 text-red-500">{statusMessage}</p>}
 
       {/* WhatsApp Link */}
-      <p className="mt-8">Prefer WhatsApp? <a href="https://api.whatsapp.com/send?phone=1234567890&text=Hello%2C%20I%20have%20a%20question%20about%20your%20services" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Chat with us on WhatsApp</a>.</p>
+      <p className="mt-8">Prefer WhatsApp? <a href="https://api.whatsapp.com/send?phone=8446820924&text=Hello%2C%20I%20have%20a%20question%20about%20your%20services" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Chat with us on WhatsApp</a>.</p>
     </section>
   </>
   );
