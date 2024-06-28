@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css or App.css */
+body {
+    transition: background-color 0.3s, color 0.3s; border: 0.3s;
+  }
+  
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Apply dark mode styles to other elements if needed */
+ 
+  
+  #home {
+    background-color: inherit; /* This will take the background color of body */
+  }
+  #contact {
+    background-color: inherit; /* This will take the background color of body */
+  }
+  #services {
+    background-color: inherit; /* This will take the background color of body */
+  }
+  #about {
+    background-color: inherit; /* This will take the background color of body */
+  }
+ 
+  
+  
+  
+
+  
