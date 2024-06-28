@@ -20,7 +20,9 @@ body {
   }
   #contact {
     background-color: inherit; /* This will take the background color of body */
-    color: black;
+  }
+.form {
+    color: gray
   }
   #services {
     background-color: inherit; /* This will take the background color of body */
