@@ -24,7 +24,7 @@ const Home = () => {
             <div className='quote text-5xl leading-loose md:leading-loose md:text-6xl font-extrabold'>" Your Partner in Financial Stability."</div>
           </div>
           <div className='md:w-[40vw] flex flex-col gap-6 justify-center items-center p-3 '>
-            <div className='rounded-full bg-yellow-200 w-1/2 h-1/2 overflow-hidden'><img className='object-fill h-full w-full' src={photo} alt="" /></div>
+            <div className='rounded-full bg-yellow-200 h-full w-full md:w-1/2 md:h-1/2 overflow-hidden'><img className='object-fill h-full w-full' src={photo} alt="" /></div>
             <div>
               <div className='text-xl md:text-3xl'>PANKAJ SINGH</div>
               <div className='text-base md:text-xl '>Founder</div>
