@@ -7,7 +7,7 @@ const About = () => {
       <Divider />
       <h2 className="text-3xl md:text-4xl font-bold text-blue-500 md:pt-20">About Us</h2>
       <div className='w-[80vw] md:mt-10 m-auto  flex flex-col md:flex-row justify-around items-center'>
-        <div className='md:w-[40vw] m-auto'>
+        <div className='md:w-[40vw] mx-auto'>
         
           
         <div className="relative m-auto w-full md:w-2/3 my-10 pb-full border-dotted border-2 border-red-600 bg-red-500 rounded-full">
