@@ -46,7 +46,7 @@ const Contact = () => {
       <Divider />
       <h2 className="text-3xl md:text-4xl font-bold text-blue-500 pt-10 md:pt-20">Contact Us</h2>
       <p className="mt-4">Reach out to us for any inquiries or assistance.</p>
-      <form className="mt-8 max-w-xl mx-auto space-y-4" onSubmit={handleSubmit}>
+      <form className="form mt-8 max-w-xl mx-auto space-y-4" onSubmit={handleSubmit}>
         <input
           type="text"
           name="name"
