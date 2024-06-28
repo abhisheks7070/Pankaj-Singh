@@ -19,9 +19,10 @@ const About = () => {
               >
               </Player>
             </div>
-        </div>
-<div className='quote text-5xl leading-loose md:leading-loose md:text-6xl font-extrabold'>"A financially secure family is a happy family."</div>
         
+<div className='quote text-5xl leading-loose md:leading-loose md:text-6xl font-extrabold'>"A financially secure family is a happy family."</div>
+
+   </div>     
         <div className='my-auto md:w-[40vw]'>
             <div className="relative m-auto w-full md:w-2/3 my-10 pb-full border-dotted border-2 border-slate-900 bg-slate-800 rounded-full">
               <Player
