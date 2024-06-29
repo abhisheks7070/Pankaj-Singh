@@ -6,6 +6,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     message: ''
   });
 
@@ -22,7 +23,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://your-backend-api-endpoint.com/contact', formData, {
+      const response = await axios.post('http://localhost:5000/contact', formData, {
         headers: {
           'Content-Type': 'application/json',
         },
@@ -33,6 +34,7 @@ const Contact = () => {
       setFormData({
         name: '',
         email: '',
+        phone: '',
         message: ''
       });
     } catch (error) {
@@ -44,7 +46,7 @@ const Contact = () => {
   return (<>
     <section id="contact" className="bg-gray-100 text-center p-4 md:px-0 h-auto ">
       <Divider />
-      <h2 className="text-3xl md:text-4xl font-bold text-blue-500 pt-10 md:pt-20">Contact Us</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-blue-600 pt-10 md:pt-20">Contact Us</h2>
       <p className="mt-4">Reach out to us for any inquiries or assistance.</p>
       <form className="form mt-8 max-w-xl mx-auto space-y-4" onSubmit={handleSubmit}>
         <input
@@ -63,6 +65,14 @@ const Contact = () => {
           value={formData.email}
           onChange={handleChange}
           className="block w-full p-3 border border-gray-300 rounded"
+        />
+        <input
+          type="number"
+          name="phone"
+          placeholder="Mobile number"
+          value={formData.phone}
+          onChange={handleChange}
+          className="block w-full p-3 border border-gray-300 rounded"
           required
         />
         <textarea
@@ -75,7 +85,7 @@ const Contact = () => {
         />
         <button
           type="submit"
-          className="bg-blue-500 text-white px-6 py-3 rounded font-bold hover:bg-blue-600"
+          className="bg-blue-600 text-white px-6 py-3 rounded font-bold hover:bg-blue-700"
         >
           Send Message
         </button>
