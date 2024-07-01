@@ -23,7 +23,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/contact', formData, {
+      const response = await axios.post('https://ps-backend-d5jt.onrender.com//contact', formData, {
         headers: {
           'Content-Type': 'application/json',
         },
